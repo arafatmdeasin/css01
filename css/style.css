@@ -1,0 +1,78 @@
+
+p{
+	margin : 0px;
+}
+section.color div{
+		background-color: skyblue;
+		padding: 10px;
+
+}
+section.color div h1{
+			color: seagreen;
+			
+			border: 1px solid black;
+}
+
+section.background{
+	height: 700px;
+	width: 700px;
+	background-image: url("../image/owl.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+section.border{
+	border-width: 3px;
+	border-style: solid dotted ;
+	border-color: red;
+	border-radius: 27px;
+
+}
+
+
+section.margin div{
+	color: white;
+	height: 100px;
+	width:  400px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.blue{
+	background-color: blue;
+	margin-top: 20px;
+	margin-bottom: 17px;
+}
+.red{
+	background-color: red;
+	margin-top: 22px;
+	margin-bottom: 10px;
+}
+
+section.padding .pad1{
+	background-color: brown;
+	color: white;
+	padding: 30px 30px 30px 97px;
+	margin-bottom: 10px;
+}
+
+section.padding .pad2{
+	background-color: black;
+	color: white;
+	width: 400px;
+	padding: 50px;
+	box-sizing: border-box;
+
+}
+
+section.width .width1{
+	background-color: yellow;
+	height: 100px;
+	max-width: 700px;
+	width:  500px;
+}
+
+section.width .width2{
+	background-color: red;
+	height: 100px;
+	max-width: 1200px;
+}
